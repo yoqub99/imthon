@@ -1,0 +1,123 @@
+  *,*,
+  ::after,
+  ::before{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: sans-serif;
+    background-color: #0F1523;
+}
+.contener{
+    width: 1200px;
+    margin: 0 auto;
+}
+.div{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 100px;
+}
+#listt{
+    list-style: none;
+    width: 350px;
+    height: 800px;
+    overflow-y: scroll;
+    background: #8997a7;
+    padding: 30px;
+    margin-bottom: 100px;
+}
+#listt1, #listt2{
+    list-style: none;
+    width: 600px;
+    height: 800px;
+    overflow-y: scroll;
+    background: #8997a7;
+    padding: 30px;
+    margin-bottom: 100px;
+}
+.widget_menu{
+    width: 200px;
+    padding: 10px;
+    margin-bottom: 20px;
+    cursor: pointer;
+    background: #FFFFFF;
+    box-shadow: 5px 5px 20px #E9E4D5;
+    border-radius: 5px;
+    transition: 1s ease all;
+}
+.widget_menu:hover{
+    transform: translateY(-5px);
+}
+.title{
+    color:rgb(12, 14, 13);
+    font-weight: bold;
+    margin-bottom: 10px;
+    font-size: 20px;
+}
+.email{
+    font-size: 14px;
+    color:   #163A24;
+    margin-bottom: 5px;   
+} 
+.tel, .username{
+    font-size: 15px;
+    color: #ddaf30;
+    margin-bottom: 5px;
+} 
+.website{
+    color: rgb(0, 171, 250);
+} 
+.list-item-three, .list-item-two{
+    background: #FFFFFF;
+    box-shadow: 5px 5px 20px #E9E4D5;
+    border-radius: 10px;
+    margin-bottom: 15px;
+    cursor: pointer;
+    padding: 25px;
+    transition: 1s ease all;
+}
+.list-item-two:hover, .list-item-three:hover{
+    transform: translateY(-5px);
+}
+.post-title {
+    color: rgb(61, 11, 11);
+    font-size: 25px;
+    font-weight: bold;
+    text-transform: capitalize;
+    margin-bottom: 10px;
+}
+.post-text{
+    font-size: 20px;
+    font-weight: bold;
+    color: rgb(50, 75, 63);
+}
+.comment-title{
+    color: rgb(61, 11, 11);
+    font-size: 25px;
+    font-weight: bold;
+    text-transform: capitalize;
+    margin-bottom: 10px
+}
+.comment-email{
+    font-size: 15px;
+    font-weight: bold;
+    color: rgb(50, 75, 63);
+    margin-bottom: 10px
+}
+.comment-text{
+    font-size: 20px;
+    font-weight: bold;
+    color: rgb(13, 15, 14);
+}
+
+
+
+
+
+
+
+
+
+
